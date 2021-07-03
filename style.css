@@ -87,7 +87,7 @@ body {
   transition-delay: 0.1s;
 }
 .content a:hover {
-  color: skyblue;
+  color: #2471A3;
 }
 .fa-user-circle,
 .fa-edit,

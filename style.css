@@ -78,8 +78,9 @@ body {
 }
 .content a {
   display: block;
-  padding: 0.4rem 0.55rem;
+  padding: 0.4rem 0.6rem;
   color: #292929;
+  color: #626567;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.18rem;
@@ -87,8 +88,18 @@ body {
   transition-delay: 0.1s;
 }
 .content a:hover {
-  color: #2471A3;
+  color: #5499C7;
+  transform: scale(1.07);
 }
+.content a:hover .fa-user-circle,
+.content a:hover .fa-edit,
+.content a:hover .fa-facebook-messenger,
+.content a:hover .fa-cog,
+.content a:hover .fa-sign-out-alt,
+.content a:hover .fa-question-circle {
+  color: #5499C7;
+}
+
 .fa-user-circle,
 .fa-edit,
 .fa-facebook-messenger,
@@ -96,4 +107,7 @@ body {
 .fa-sign-out-alt,
 .fa-question-circle {
   margin-right: 5px;
+  color: #979A9A;
+  transition: 0.4s;
+  transition-delay: 0.1s;
 }
